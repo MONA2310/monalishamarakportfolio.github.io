@@ -1,0 +1,72 @@
+<html>
+    <style>
+        .profile-container {
+           display: flex;
+           justify-content: center;
+           align-items: center; 
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #333;
+            text-align: center;
+            background-color: lightcoral;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+        }
+        p{
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-weight: lighter;
+        }
+        body{
+            background-color: beige;
+        }
+    </style>
+    <body>
+    <h2 >PORTFOLIO</h2>
+    <div class="profile-container">
+        <img src="pfp.jpg
+        " alt="Profile Picture" width="200" height="145">
+    </div>
+    <h3>Hi, I'm Monalisha R. Marak</h3>
+    <h3>ABOUT ME<h3>
+    <p>I am an individual with strong interest in learning new skills and improving my skills.</p>
+    <p>I am eager to gain experience and grow both personally and professionally.</p>
+    <div class="container">
+        <div class="box">EDUCATION
+            <p>MCA</p>
+        </div>
+         <div class="box">SKILL
+            <p>C language</p>
+             <p>HTML, CSS(basics)</p>
+             <p>PHP & MYSQL(basics)</p>
+         </div>
+          <div class="box">PROJECTS
+             <p>Classroom Management System</p>
+              <p>To do list Application</p>
+          </div>
+          <div class="box">INTERESTS
+            <p>Reading books</p>
+             <p>Creative Writing</p>
+          </div>
+          </div>
+          <h3>CONTACT ME</h3>
+           <p>email: monalishamarak692@gmail.com</p>
+            <p>Phone no: XXXXXXXXXXXX</p>
+
+    </body>
+</html>
